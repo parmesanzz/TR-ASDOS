@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  
+<title>Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+    	body{margin-top:20px;
+background-color:#f2f6fc;
+color:#69707a;
+}
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 500;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #69707a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c5ccd6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-borders .nav-link.active {
+    color: #0061f2;
+    border-bottom-color: #0061f2;
+}
+.nav-borders .nav-link {
+    color: #69707a;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+    </style>
+</head>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <div class="container-xl px-4 mt-4">
+
+    <nav class="nav nav-borders">
+        <a class="nav-link active ms-0" href="https://www.bootdey.com/snippets/view/bs5-edit-profile-account-details" target="__blank">Profile</a>
+        <a class="nav-link" href="https://www.bootdey.com/snippets/view/bs5-profile-billing-page" target="__blank">Billing</a>
+        <a class="nav-link" href="https://www.bootdey.com/snippets/view/bs5-profile-security-page" target="__blank">Security</a>
+        <a class="nav-link" href="https://www.bootdey.com/snippets/view/bs5-edit-notifications-page"  target="__blank">Notifications</a>
+  <div class="container-fluid fixed-top">
+      <div class="container topbar bg-primary d-none d-lg-block">
+          <div class="d-flex justify-content-between">
+              <div class="top-info ps-2">
+                  <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Purwosari No.34 Salatiga</a></small>
+                  <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Kios34@gmail.com</a></small>
+              </div>
+              <div class="top-link pe-2">
+                  <a href="#" class="text-white"><small class="text-white mx-2">Kebijakan Privasi</small>/</a>
+                  <a href="#" class="text-white"><small class="text-white mx-2">FAQ</small>/</a>
+                  <a href="#" class="text-white"><small class="text-white ms-2">Selamat Datang</small></a>
+              </div>
+          </div>
+      </div>
+      <div class="container px-0">
+          <nav class="navbar navbar-light bg-white navbar-expand-xl">
+              <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">KIOS 34</h1></a>
+              <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span class="fa fa-bars text-primary"></span>
+              </button>
+              <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                  <div class="navbar-nav mx-auto">
+                      <a href="index.html" class="nav-item nav-link">Home</a>
+                      <a href="ewallet.html" class="nav-item nav-link">E-Wallet</a>
+                      <a href="promo.html" class="nav-item nav-link">Promo</a>
+                      <div class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                          <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                              <a href="cart.html" class="dropdown-item">Keranjang</a>
+                              <a href="Review.html" class="dropdown-item">Review</a>
+                          </div>
+                      </div>
+                      <a href="contact.html" class="nav-item nav-link">Tentang</a>
+                  </div>
+                  <div class="d-flex m-3 me-0">
+                      <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                      <a href="cart.html" class="position-relative me-4 my-auto">
+                          <i href="cart.html" class="fa fa-shopping-bag fa-2x"></i>
+                          <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
+                      </a>
+                      <a href="profile.html" class="my-auto">
+                          <i class="fas fa-user fa-2x active"></i>
+                      </a>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </div>
+<body>
+<div class="container-xl px-4 mt-4">
+</nav>
+<hr class="mt-0 mb-4">
+<div class="row">
+<div class="col-xl-4">
+
+<div class="card mb-4 mb-xl-0">
+<div class="card-header">Profile Picture</div>
+<div class="card-body text-center">
+
+<img class="img-account-profile rounded-circle mb-2" src="data:image/jpeg;base64,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" alt>
+
+<div class="small font-italic text-muted mb-4">JPG or PNG tidak lebih dari 5 MB</div>
+
+<button class="btn btn-primary" type="button">Upload foto baru</button>
+</div>
+</div>
+</div>
+<div class="col-xl-8">
+
+<div class="card mb-4">
+<div class="card-header">Detail Akun</div>
+<div class="card-body">
+<form>
+
+<div class="mb-3">
+<label class="small mb-1" for="inputUsername">Nama Pengguna</label>
+<input class="form-control" id="inputUsername" type="text" placeholder="Enter your username" value="Surr">
+</div>
+
+<div class="row gx-3 mb-3">
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputFirstName">Nama Depan</label>
+<input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" value="Wahyu">
+</div>
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputLastName">Nama Belakang</label>
+<input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" value="Rangga">
+</div>
+</div>
+
+<div class="row gx-3 mb-3">
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputOrgName">Nama Perusahaan</label>
+<input class="form-control" id="inputOrgName" type="text" placeholder="enter organization" value="PT. SURR">
+</div>
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputLocation">Lokasi</label>
+<input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" value="Purwosari">
+</div>
+</div>
+
+<div class="mb-3">
+<label class="small mb-1" for="inputEmailAddress">Alamat Email</label>
+<input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="awikwok@gmail.com">
+</div>
+
+<div class="row gx-3 mb-3">
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputPhone">Nomor telpon</label>
+<input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" value="0812345432">
+</div>
+
+<div class="col-md-6">
+<label class="small mb-1" for="inputBirthday">TTL</label>
+<input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" value="30/10/1956">
+</div>
+</div>
+
+<button class="btn btn-primary" type="button">Simpan perubahan</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+</script>
+    
+</body>
+</html>
